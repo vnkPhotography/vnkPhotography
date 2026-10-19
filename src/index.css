@@ -318,7 +318,7 @@ img { display: block; max-width: 100%; }
 .wp-grid { display: grid; gap: calc(var(--gap) * 2) var(--gap); }
 /* 9 desktop wallpapers = 3 even rows; 6 mobile wallpapers = 2 even rows */
 .wp-grid.desktop { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.wp-grid.mobile { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 720px; }
+.wp-grid.mobile { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 1300px; }
 .wp-grid.mobile figcaption { flex-direction: column; gap: 4px; }
 .wp-item { margin: 0; min-width: 0; }
 .wp-item img { width: 100%; height: auto; background: var(--tone); }
