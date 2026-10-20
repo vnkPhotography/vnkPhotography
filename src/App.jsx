@@ -478,6 +478,12 @@ function PrivacyPage() {
         The Instagram link takes you to Instagram, where Instagram's own privacy policy applies.
         Nothing is sent to Instagram unless you click it.
       </p>
+      <h2>People in my photographs</h2>
+      <p>
+        Some photographs show people at public events, festivals and traditions. If you recognise
+        yourself in a photograph and would like it removed, write to me at{" "}
+        <a href={`mailto:${email()}`}>{email()}</a> and I will take it down promptly.
+      </p>
       <h2>Your rights</h2>
       <p>
         You can ask what data about you I hold, and have it corrected or deleted. You also have the

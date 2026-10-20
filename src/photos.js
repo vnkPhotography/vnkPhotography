@@ -9,7 +9,7 @@
  *   feature    → true = full-width row in the gallery (landscape photos only)
  *
  * The ORDER of this list is the order of the gallery.
- * This is a curated edit of 25 photos; the other image files stay in the
+ * This is a curated edit of 24 photos; the other image files stay in the
  * repo — add them back here any time.
  */
 
@@ -42,13 +42,13 @@ export const photos = [
     location: "Schrecksee, Bavaria",
     caption: "A mountain lake worth every step of the climb." },
 
-  { file: "VNK_7.jpg", w: 1600, h: 2400,
-    location: "Annaberg-Buchholz, Saxony",
-    caption: "Roasted almonds at the Christmas market, weighed by hand." },
-
   { file: "VNK_12.jpg", w: 1600, h: 2400,
     location: "Rabenstein, Saxony",
     caption: "A scribe at the medieval market, keeping the old letters alive." },
+
+  { file: "VNK_30.jpg", w: 1600, h: 2400,
+    location: "Wolkenstein, Saxony",
+    caption: "Two walkers, one path." },
 
   { file: "VNK_20.jpg", w: 2400, h: 1600, feature: true,
     location: "Strasbourg, France",
@@ -61,6 +61,10 @@ export const photos = [
   { file: "VNK_29.jpg", w: 1600, h: 2400,
     location: "Dresden, Saxony",
     caption: "The Stollenfest parade, in full baroque costume." },
+
+  { file: "VNK_17.jpg", w: 2400, h: 1600, feature: true,
+    location: "Schwangau, Bavaria",
+    caption: "Neuschwanstein, a fairytale castle set into the mountainside." },
 
   { file: "VNK_4.jpg", w: 1600, h: 2400,
     location: "Hallstatt, Austria",
@@ -98,17 +102,9 @@ export const photos = [
     location: "Budapest, Hungary",
     caption: "Morning settling over the Danube." },
 
-  { file: "VNK_17.jpg", w: 2400, h: 1600,
-    location: "Schwangau, Bavaria",
-    caption: "Neuschwanstein, a fairytale castle set into the mountainside." },
-
   { file: "VNK_11.jpg", w: 1600, h: 2400,
     location: "Garmisch-Partenkirchen, Bavaria",
     caption: "The Partnachklamm, meltwater cutting through the gorge." },
-
-  { file: "VNK_30.jpg", w: 1600, h: 2400,
-    location: "Wolkenstein, Saxony",
-    caption: "Two walkers, one path." },
 
   { file: "VNK_24.jpg", w: 2400, h: 1600, feature: true,
     location: "Grimma, Saxony",
